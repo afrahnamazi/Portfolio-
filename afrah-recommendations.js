@@ -1,60 +1,60 @@
 const recommendationData = [
   {
-    image: './recommendation-01.jpg',
+    image: './assets/recommendations/recommendation-01.jpg',
     title: { ar: 'تحليل إحصاءات المرضى', en: 'Patient Statistics Analysis' },
     org: { ar: 'مستشفى جازان العام · الخدمات الاجتماعية', en: 'Jazan General Hospital · Social Services' },
     description: { ar: 'توصية عن تحليل البيانات الصحية وإعداد التقارير باستخدام Power BI وExcel.', en: 'A recommendation highlighting healthcare data analysis and reporting with Power BI and Excel.' }
   },
   {
-    image: './recommendation-02.jpg',
+    image: './assets/recommendations/recommendation-02.jpg',
     title: { ar: 'السجلات الطبية والتقارير', en: 'Medical Records & Reports' },
     org: { ar: 'مستشفى الأمير محمد بن ناصر', en: 'Prince Mohammed Bin Nasser Hospital' },
     description: { ar: 'توصية عن التدريب في إدارة المعلومات الصحية والسجلات الطبية.', en: 'A recommendation for training in health information and medical records management.' }
   },
   {
-    image: './recommendation-03.jpg',
+    image: './assets/recommendations/recommendation-03.jpg',
     title: { ar: 'تنسيق العمليات', en: 'Operations Coordination' },
     org: { ar: 'مستشفى الأمير محمد بن ناصر', en: 'Prince Mohammed Bin Nasser Hospital' },
     description: { ar: 'توصية عن تنسيق العمليات ودعم الإجراءات الإدارية والبيانات الإحصائية.', en: 'A recommendation covering operations coordination, administrative support, and statistical data.' }
   },
   {
-    image: './recommendation-04.jpg',
+    image: './assets/recommendations/recommendation-04.jpg',
     title: { ar: 'مركز مراقبة الموارد', en: 'Resources Control Center' },
     org: { ar: 'مستشفى الأمير محمد بن ناصر', en: 'Prince Mohammed Bin Nasser Hospital' },
     description: { ar: 'توصية عن متابعة الأداء التشغيلي وتحليل المؤشرات وإعداد لوحات البيانات.', en: 'A recommendation on monitoring operational performance, reviewing indicators, and building dashboards.' }
   },
   {
-    image: './recommendation-05.jpg',
+    image: './assets/recommendations/recommendation-05.jpg',
     title: { ar: 'التأمين الصحي', en: 'Health Insurance' },
     org: { ar: 'مستشفى جازان العام · قسم التأمين', en: 'Jazan General Hospital · Insurance Department' },
     description: { ar: 'توصية عن أنظمة التأمين والتحقق من أهلية التغطية وتحليل بياناتها.', en: 'A recommendation on insurance systems, eligibility verification, and insurance data analysis.' }
   },
   {
-    image: './recommendation-06.jpg',
+    image: './assets/recommendations/recommendation-06.jpg',
     title: { ar: 'شؤون المرضى', en: 'Patient Affairs' },
     org: { ar: 'مستشفى جازان العام', en: 'Jazan General Hospital' },
     description: { ar: 'خطاب توصية عن الالتزام والتعلم وتحليل المعلومات الصحية والعمل ضمن الفريق.', en: 'A recommendation highlighting commitment, learning, health information analysis, and teamwork.' }
   },
   {
-    image: './recommendation-07.jpg',
+    image: './assets/recommendations/recommendation-07.jpg',
     title: { ar: 'أنظمة PACS والأشعة', en: 'PACS & Radiology Systems' },
     org: { ar: 'مستشفى جازان العام · قسم الأشعة', en: 'Jazan General Hospital · Radiology Department' },
     description: { ar: 'توصية عن إدارة الصور الطبية وأنظمة حفظها واسترجاعها ودعم سير العمل السريري.', en: 'A recommendation on medical imaging, digital storage and retrieval, and radiology workflows.' }
   },
   {
-    image: './recommendation-08.jpg',
+    image: './assets/recommendations/recommendation-08.jpg',
     title: { ar: 'الإدارة الاستراتيجية والمشاريع', en: 'Strategic Planning & Projects' },
     org: { ar: 'مستشفى جازان العام', en: 'Jazan General Hospital' },
     description: { ar: 'خطاب توصية عن تحليل المعلومات وتنظيمها والمساهمة في أعمال إدارة المشاريع.', en: 'A recommendation on analyzing and organizing information and contributing to project work.' }
   },
   {
-    image: './recommendation-09.jpg',
+    image: './assets/recommendations/recommendation-09.jpg',
     title: { ar: 'عمليات التأمين الصحي', en: 'Health Insurance Operations' },
     org: { ar: 'مستشفى الأمير محمد بن ناصر', en: 'Prince Mohammed Bin Nasser Hospital' },
     description: { ar: 'توصية عن إدارة بيانات التغطية والتعرف على أنظمة VIDa وCyclus RCM.', en: 'A recommendation on coverage data management and exposure to VIDa and Cyclus RCM.' }
   },
   {
-    image: './recommendation-10.jpg',
+    image: './assets/recommendations/recommendation-10.jpg',
     title: { ar: 'وحدة PACS والأشعة', en: 'PACS Unit & Radiology' },
     org: { ar: 'مستشفى الأمير محمد بن ناصر · تجمع جازان الصحي', en: 'Prince Mohammed Bin Nasser Hospital · Jazan Health Cluster' },
     description: { ar: 'توصية عن أنظمة التصوير الطبي وتكامل PACS وحماية البيانات الصحية.', en: 'A recommendation on medical imaging, PACS integration, and healthcare data security.' }

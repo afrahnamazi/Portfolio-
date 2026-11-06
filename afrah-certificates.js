@@ -49,7 +49,7 @@ function renderCertificateGallery() {
     const preview = document.createElement('span');
     preview.className = 'afrah-cert-preview';
     const image = document.createElement('img');
-    image.src = `./${item.file}`;
+    image.src = `./assets/certificates/${item.file}`;
     image.alt = title;
     image.loading = 'lazy';
     image.decoding = 'async';
@@ -96,7 +96,7 @@ function openCertificate(item, lang) {
   heading.textContent = title;
   const image = document.createElement('img');
   image.className = 'afrah-cert-modal-image';
-  image.src = `./${item.file}`;
+  image.src = `./assets/certificates/${item.file}`;
   image.alt = title;
   image.decoding = 'async';
   const dismiss = () => {

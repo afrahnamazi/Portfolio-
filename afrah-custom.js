@@ -28,16 +28,16 @@ function addLiveProjectLinks(){
  const title=detail.querySelector('.project-detail-title')?.textContent?.trim()||'';
  const pageId=location.pathname.split('/').filter(Boolean).pop()||'';
  const project={
-  'medicare-reminder':{url:'https://medicare26.github.io/MediCareReminder26/',graduation:true,gallery:[['./afrah-project-medicare-login.png','Sign-in Screen'],['./afrah-project-medicare-dashboard.png','Nursing Dashboard']]},
-  'infopulse':{url:'https://afrahnamazi.github.io/INFOPLUSE/',gallery:[['./afrah-infopulse-start.png','Start Screen'],['./afrah-infopulse-paths.png','Choose a Path']]},
-  'saving-smart':{url:'https://afrahnamazi.github.io/Saving-Smart/',gallery:[['./afrah-saving-smart-home.png','Welcome Screen']]},
+  'medicare-reminder':{url:'https://medicare26.github.io/MediCareReminder26/',graduation:true,gallery:[['./assets/afrah-project-medicare-login.png','Sign-in Screen'],['./assets/afrah-project-medicare-dashboard.png','Nursing Dashboard']]},
+  'infopulse':{url:'https://afrahnamazi.github.io/INFOPLUSE/',gallery:[['./assets/afrah-infopulse-start.png','Start Screen'],['./assets/afrah-infopulse-paths.png','Choose a Path']]},
+  'saving-smart':{url:'https://afrahnamazi.github.io/Saving-Smart/',gallery:[['./assets/afrah-saving-smart-home.png','Welcome Screen']]},
   'data-dashboards':{dashboard:true,groups:[
-   {images:[{src:'./case-management-overview.jpeg'},{src:'./case-management-2026.jpeg'}]},
-   {images:[{src:'./collections-kpis-cover.jpeg'},{src:'./collections-kpis-dashboard.jpeg'}]},
-   {images:[{src:'./social-services-dashboard.jpeg'}]},
-   {images:[{src:'./health-insurance-dashboard.jpeg'},{src:'./outpatient-visits-dashboard.jpeg'}]},
-   {images:[{src:'./operating-room-kpis.jpeg'}]},
-   {images:[{src:'./outpatient-clinic-kpis.jpeg'}]}
+   {images:[{src:'./assets/dashboards/case-management-overview.jpeg'},{src:'./assets/dashboards/case-management-2026.jpeg'}]},
+   {images:[{src:'./assets/dashboards/collections-kpis-cover.jpeg'},{src:'./assets/dashboards/collections-kpis-dashboard.jpeg'}]},
+   {images:[{src:'./assets/dashboards/social-services-dashboard.jpeg'}]},
+   {images:[{src:'./assets/dashboards/health-insurance-dashboard.jpeg'},{src:'./assets/dashboards/outpatient-visits-dashboard.jpeg'}]},
+   {images:[{src:'./assets/dashboards/operating-room-kpis.jpeg'}]},
+   {images:[{src:'./assets/dashboards/outpatient-clinic-kpis.jpeg'}]}
   ]}
  }[pageId];
  if(!project)return;
@@ -217,11 +217,11 @@ function addVolunteeringView(){
   const grid=document.createElement('div');
   grid.className='afrah-volunteer-certificate-grid';
   [
-   {community:true,title:'InfoPulse Community',description:'Volunteer operations manager at InfoPulse Community.',image:'./infopulse-community-logo.jpg'},
-   {title:'Saudi Red Crescent Authority',description:'Volunteer participation',hours:'6 hours',image:'./volunteer-red-crescent.jpg'},
-   {title:'Health Volunteering Platform',description:'Volunteer participation',hours:'100 hours',image:'./volunteer-health-volunteering.jpg'},
-   {title:'National Center for Nonprofit Sector Development',description:'Volunteer participation',hours:'45 hours',image:'./volunteer-nonprofit-45-hours.jpg'},
-   {title:'National Center for Nonprofit Sector Development',description:'Volunteer participation',hours:'15 hours',image:'./volunteer-nonprofit-15-hours.jpg'}
+   {community:true,title:'InfoPulse Community',description:'Volunteer operations manager at InfoPulse Community.',image:'./assets/infopulse-community-logo.jpg'},
+   {title:'Saudi Red Crescent Authority',description:'Volunteer participation',hours:'6 hours',image:'./assets/volunteer-red-crescent.jpg'},
+   {title:'Health Volunteering Platform',description:'Volunteer participation',hours:'100 hours',image:'./assets/volunteer-health-volunteering.jpg'},
+   {title:'National Center for Nonprofit Sector Development',description:'Volunteer participation',hours:'45 hours',image:'./assets/volunteer-nonprofit-45-hours.jpg'},
+   {title:'National Center for Nonprofit Sector Development',description:'Volunteer participation',hours:'15 hours',image:'./assets/volunteer-nonprofit-15-hours.jpg'}
   ].forEach(item=>grid.appendChild(makeVolunteerCard(item)));
   panel.append(heading,grid);
   container.appendChild(panel);
